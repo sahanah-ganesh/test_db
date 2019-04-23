@@ -21,8 +21,9 @@ function lookupPerson(name) {
     }
     console.log("Searching...");
     console.log(`Found ${result.rows.length} person(s) by the name '${name}':`);
+    let count = 0;
     result.rows.forEach((row) => {
-      console.log(`- ${row.id -= 2}: ${row.first_name} ${row.last_name}, born '${row.birthdate.toISOString().slice(0, 10)}'`);
+      console.log(`- ${count += 1}: ${row.first_name} ${row.last_name}, born '${row.birthdate.toISOString().slice(0, 10)}'`);
     })
     client.end();
   });
