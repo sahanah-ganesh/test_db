@@ -1,0 +1,23 @@
+{
+  "name": "test_db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add_person.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahanah-ganesh/test_db.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahanah-ganesh/test_db/issues"
+  },
+  "homepage": "https://github.com/sahanah-ganesh/test_db#readme",
+  "dependencies": {
+    "pg": "^7.10.0",
+    "knex": "^0.16.5"
+  }
+}
